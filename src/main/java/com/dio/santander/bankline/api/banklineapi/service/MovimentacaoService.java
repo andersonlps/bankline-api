@@ -1,14 +1,12 @@
 package com.dio.santander.bankline.api.banklineapi.service;
 
 import java.time.LocalDateTime;
-
 import com.dio.santander.bankline.api.banklineapi.DTO.MovimentacaoDTO;
 import com.dio.santander.bankline.api.banklineapi.model.Correntista;
 import com.dio.santander.bankline.api.banklineapi.model.Movimentacao;
 import com.dio.santander.bankline.api.banklineapi.model.MovimentacaoTipo;
 import com.dio.santander.bankline.api.banklineapi.repository.CorrentistaRepository;
 import com.dio.santander.bankline.api.banklineapi.repository.MovimentacaoRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
